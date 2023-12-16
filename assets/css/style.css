@@ -1,13 +1,16 @@
+/* Sets default padding and margin to 0 for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets backgroung color for elements under body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets padding, font type, background color and text color for header element */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Sets position and fontside for h1 in the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets font color  ofseo in header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets padding, margin, position, font type, and font size of the navigation links in the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Removes list markings in header */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Sets position of the list in header */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets text color and removes text decoration from anything under <a> */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets font size of <p> */
 p {
     font-size: 16px;
 }
 
+/* Sets the background as the listed image and it's position on the webpage */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Sets the position of the content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Places elemets with float-left class on the left side of the screen */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Places elemets with float-right class on the right side of the screen */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets padding, margin, position, font type, and font size in the description class */
 .description {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +99,18 @@ p {
     color: #ffffff;
 }
 
+/* Sets a max height of images in the description class */
 .description img {
     max-height: 200px;
 }
 
+/* Sets margin and font size of h2 under the description class */
 .description h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Sets padding, margin, position, font type, font size, and background color in the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +122,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets margin and font color of the benefit-lead class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets margin and position for h3 under the benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets the position of images in the benefit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sets padding, position and font type in the footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Sets the font size of h2 in the footer class */
 .footer h2 {
     font-size: 20px;
 }
