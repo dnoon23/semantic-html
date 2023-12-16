@@ -2,6 +2,7 @@
 
 ## Description
 
+https://dnoon23.github.io/semantic-html/
 This project was developed to practice using various descriptive semantic tags to help code flow in a logical manner and so others looking at it can understand it more easily.  Another goal was to clean up the CSS file to be more concise and easier to read.  I learned the importance of semantics to keep code readable and easier to manage which is useul for both the coder and somebody else reading the code.
 
 ![Screenshot](./assets/images/screenshot.png)
